@@ -13,12 +13,44 @@
  * It is generally better to create a new file per style scope.
  */
  .base{
-    height: 400px;
+    height: 350px;
     width: auto;
     }
     
     .containt{
-        height: 400px;
+        height: 350px;
         width: auto;
         position: absolute;
+    }
+
+    #text{
+        display:none
+    }
+
+    #text0{
+        display:none
+    }
+
+    #text1{
+        display:none
+    }
+
+    #text2{
+        display:none
+    }
+
+    #text3{
+        display:none
+    }
+
+    .primary{
+        margin-top: 30px;
+        background-color: #b2292b;
+        color: white;
+        padding: 5px 10px 5px 10px;
+        border: none;
+    }
+
+    .heading{
+        margin-bottom: 30px;
     }
